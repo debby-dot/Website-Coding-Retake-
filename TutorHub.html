@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorHub - Personalized Tutoring Lessons</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-image: url('Header Final.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        .hero {
+            background-image: url('Blur Final.jpg'); 
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            background-color: #ffebcd;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 430px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #4CAF50;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .typeform-placeholder {
+            background-color: #f0f8ff;
+            padding: 20px;
+            text-align: center;
+            border: 2px dashed #4CAF50;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            font-size: 1.2rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TutorHub</h1>
+        <p>Personalised Tutoring Services for Students</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Tutors</a>
+        <a href="#lessons">Lessons Offered</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Your Success, Our Mission</h2>
+        <p>Are you a student struggling with school? You are in the right place!</p>
+    </div>
+
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>At TutorHub, we connect students with our passionate and experienced tutors. Whether you're preparing for exams, struggling with a subject, or looking to excel, our tutors are there to guide you every step of the way.</p>
+    </div>
+
+    <div class="content" id="services">
+        <h2>Our Tutors</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="Xavier.jpg" alt="Xavier Poulain"> <!-- Replace with your image path -->
+                <h3>Xavier Poulain</h3>
+                <p>Expert in Math and Physics. Helping students simplify complex concepts.</p>
+            </div>
+            <div class="card">
+                <img src="Charles.jpg" alt="Charles De La Croixr"> <!-- Replace with your image path -->
+                <h3>Charles De La Croix</h3>
+                <p>Passionate about Literature and Writing. Boosting your creative skills.</p>
+            </div>
+            <div class="card">
+                <img src="Manon.jpg" alt="Manon Verne"> <!-- Replace with your image path -->
+                <h3>Manon Verne</h3>
+                <p>Biology and Chemistry specialist. Making science exciting and fun.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="lessons">
+        <h2>Lessons Offered</h2>
+        <ul>
+            <li>Maths (Algebra, Calculus, Geometry)</li>
+            <li>Science (Biology, Chemistry, Physics)</li>
+            <li>Languages (English, Spanish, French)</li>
+            <li>Competitive Exam Preparation (SAT, ACT, GRE)</li>
+            <li>College Application Assistance</li>
+        </ul>
+    </div>
+
+    <div class="typeform-placeholder">
+       <iframe 
+        src="https://b9nvcg2u9ql.typeform.com/to/jdWFDrcM" 
+        width="100%" 
+        height="500px" 
+        frameborder="0" 
+        allow="fullscreen; autoplay"
+        title="Typeform Embed">
+    </iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TutorHub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
